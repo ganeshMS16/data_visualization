@@ -8,7 +8,6 @@ import streamlit as st
 import os
 
 load_dotenv()
-# openai_api_key = "sk-proj-Q6HYC5NYMuFptdlxoLFXT3BlbkFJGU7wPPDy8UOK27VthOPQ"
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 def csv_tool(filename : str):
